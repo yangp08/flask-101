@@ -16,5 +16,5 @@ def get_product():
     }
 
 
-    #return jsonify(firstname='toto',lastname='titi')
-    return PRODUCTS
+    return jsonify(PRODUCTS)
+
